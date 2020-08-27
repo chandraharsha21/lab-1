@@ -1,0 +1,18 @@
+num1 = float(input("enter first number:"))
+num2 = float(input("enter second number:"))
+num3 = float(input("enter third number:"))
+#logic begins here
+if (num1<=num2) and (num1<=num3):
+    smallest=num1
+elif (num2<=num1) and (num2<num3):
+    smallest =num2
+else:
+   smallest =num3
+print("smallest no is ",smallest)
+
+
+output_
+enter no 1 50
+enter no 2 25
+enter no 3 30
+smallest no is 25
